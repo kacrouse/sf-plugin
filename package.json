@@ -9,7 +9,7 @@
     "@oclif/config": "^1",
     "@oclif/errors": "^1",
     "@salesforce/command": "^2",
-    "@salesforce/core": "^2",
+    "@salesforce/core": "^7",
     "chalk": "^2.4.2",
     "get-stdin": "^8.0.0",
     "log-update": "^4.0.0",
