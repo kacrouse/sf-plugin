@@ -14,7 +14,7 @@
     "get-stdin": "^8.0.0",
     "log-update": "^4.0.0",
     "strip-ansi": "^6.0.0",
-    "table": "^6.7.1",
+    "table": "^6.9.0",
     "tmp-promise": "^3.0.2",
     "tslib": "^1"
   },
