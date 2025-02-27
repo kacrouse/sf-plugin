@@ -4,13 +4,22 @@
   "version": "1.0.0",
   "dependencies": {
     "@oclif/core": "^4",
-    "@salesforce/core": "^8",
-    "@salesforce/sf-plugins-core": "^12"
+    "@salesforce/apex-node": "^8.1.19",
+    "@salesforce/core": "^8.8.4",
+    "@salesforce/plugin-apex": "^3.6.8",
+    "@salesforce/sf-plugins-core": "^12",
+    "@salesforce/ts-types": "^2.0.12",
+    "@types/tmp": "^0.2.6",
+    "get-stdin": "^9.0.0",
+    "lodash": "^4.17.21",
+    "tmp-promise": "^3.0.3"
   },
   "devDependencies": {
     "@oclif/plugin-command-snapshot": "^5.1.9",
     "@salesforce/cli-plugins-testkit": "^5.3.10",
+    "@salesforce/dev-config": "^4.3.1",
     "@salesforce/dev-scripts": "^10",
+    "@types/lodash": "^4.17.15",
     "eslint-plugin-sf-plugin": "^1.18.6",
     "oclif": "^4.14.0",
     "ts-node": "^10.9.2",
@@ -48,9 +57,6 @@
         "subtopics": {
           "apex": {
             "description": "description for kac.apex"
-          },
-          "soql": {
-            "description": "description for kac.soql"
           }
         }
       }
