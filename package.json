@@ -57,6 +57,9 @@
         "subtopics": {
           "apex": {
             "description": "description for kac.apex"
+          },
+          "debug-mode": {
+            "description": "description for kac.debug-mode"
           }
         }
       }
