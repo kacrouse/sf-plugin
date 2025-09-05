@@ -3,6 +3,7 @@
   "description": "A plugin for the Salesforce CLI built by Kyle Crouse.",
   "version": "1.0.0",
   "dependencies": {
+    "@jsforce/jsforce-node": "^3.10.4",
     "@oclif/core": "^4",
     "@salesforce/apex-node": "^8.1.19",
     "@salesforce/core": "^8.8.4",
@@ -60,6 +61,9 @@
           },
           "debug-mode": {
             "description": "description for kac.debug-mode"
+          },
+          "record": {
+            "description": "description for kac.record"
           }
         }
       }
